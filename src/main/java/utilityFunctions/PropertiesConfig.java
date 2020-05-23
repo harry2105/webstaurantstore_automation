@@ -8,7 +8,7 @@ import java.util.Properties;
 public class PropertiesConfig {
 	
 	public Properties getProerty() throws IOException{
-		FileReader fl=new FileReader("Data.properties");
+		FileReader fl=new FileReader("application.properties");
 		BufferedReader reader=new BufferedReader(fl);
 		Properties p=new Properties();
 		p.load(reader);

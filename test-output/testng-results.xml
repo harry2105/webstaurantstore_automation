@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17313" started-at="2020-03-19T15:06:57Z" finished-at="2020-03-19T15:07:15Z">
+  <suite name="Default suite" duration-ms="34207" started-at="2020-05-22T19:51:33Z" finished-at="2020-05-22T19:52:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17313" started-at="2020-03-19T15:06:57Z" finished-at="2020-03-19T15:07:15Z">
-      <class name="testMethods.GoogleTest">
-        <test-method status="PASS" signature="googleSearchTest()[pri:0, instance:testMethods.GoogleTest@d8355a8]" name="googleSearchTest" duration-ms="17224" started-at="2020-03-19T15:06:57Z" finished-at="2020-03-19T15:07:15Z">
+    <test name="Default test" duration-ms="34207" started-at="2020-05-22T19:51:33Z" finished-at="2020-05-22T19:52:08Z">
+      <class name="testMethods.TestMethod">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testMethods.TestMethod@ae45eb6]" name="setup" is-config="true" duration-ms="5921" started-at="2020-05-22T19:51:27Z" finished-at="2020-05-22T19:51:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleSearchTest -->
-      </class> <!-- testMethods.GoogleTest -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testMethods.TestMethod@ae45eb6]" name="test1" duration-ms="34116" started-at="2020-05-22T19:51:33Z" finished-at="2020-05-22T19:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testMethods.TestMethod -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
